@@ -1,0 +1,19 @@
+# API base url
+# set your url
+base_url : 'http://<your-subdomain>.myjetbrains.com/youtrack/rest'
+
+# allowed: base, cookie
+auth_way: 'base'
+
+# allowed: xml, json, False - no parsing
+should_parse_response: 'xml'
+
+# Auth endpoint
+auth_endpoint: '/user/login/'
+
+# API auth credentials
+# set your credentials
+# register API on https://www.jetbrains.com/shop/youtrack/signup
+credentials:
+    login: '<your_login>'
+    password: '<your_password>'
